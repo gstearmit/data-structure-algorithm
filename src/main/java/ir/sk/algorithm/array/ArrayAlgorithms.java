@@ -452,7 +452,7 @@ public class ArrayAlgorithms {
     /**
      * Given string str, the task is to find the minimum count of characters that need to be deleted from the string such that the frequency of each character of the string is unique.
      * <p>
-     * Input: str = “ceabaacb”
+     * Input: str = "ceabaacb"
      * Output: 2
      * Explanation:
      * The frequencies of each distinct character are as follows:
@@ -462,8 +462,8 @@ public class ArrayAlgorithms {
      * b —> 2
      * Possible ways to make frequency of each character unique by minimum number of moves are:
      * <p>
-     * Removing both occurrences of ‘c’ modifies str to “eabaab”
-     * Removing an occurrence of ‘c’ and ‘e’ modifies str to “abaacb”
+     * Removing both occurrences of ‘c’ modifies str to "eabaab"
+     * Removing an occurrence of ‘c’ and ‘e’ modifies str to "eabaab"
      *
      * @param str
      * @return

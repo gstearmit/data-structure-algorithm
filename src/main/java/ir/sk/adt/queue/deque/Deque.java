@@ -1,7 +1,7 @@
 package ir.sk.adt.queue.deque;
 
 /**
- * Deque. A double-ended queue or deque (pronounced “deck”) is like a stack or
+ * Deque. A double-ended queue or deque (pronounced "deck") is like a stack or
  * a queue but supports adding and removing items at both ends.
  *
  * Created by sad.kayvanfar on 3/8/2021.

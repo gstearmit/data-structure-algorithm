@@ -190,7 +190,7 @@ public class PairsWithGivenSum {
      * <p>
      * To follow a similar approach, first, we will sort the array and then iterate through it
      * taking one number at a time. Let’s say during our iteration we are at number ‘X’, so we need to find ‘Y’ and ‘Z’ such that X + Y + Z == 0.
-     * At this stage, our problem translates into finding a pair whose sum is equal to “-Y−Z” (as from the above equation Y + Z == -X).
+     * At this stage, our problem translates into finding a pair whose sum is equal to "-Y−Z" (as from the above equation Y + Z == -X).
      * <p>
      * Another difference from Pair with Target Sum is that we need to find all the unique triplets.
      * To handle this, we have to skip any duplicate number. Since we will be sorting the array,
@@ -294,7 +294,7 @@ public class PairsWithGivenSum {
      * Following a similar approach, first we can sort the array and then iterate through it,
      * taking one number at a time. Let’s say during our iteration we are at number ‘X’,
      * so we need to find ‘Y’ and ‘Z’ such that X + Y + Z < targetX+Y+Z<target. At this stage,
-     * our problem translates into finding a pair whose sum is less than “$ target - X$”
+     * our problem translates into finding a pair whose sum is less than "$ target - X$"
      * (as from the above equation Y + Z == target - XY+Z==target−X).
      * We can use a similar approach as discussed in Triplet Sum to Zero.
      *

@@ -10,7 +10,7 @@ import java.util.Arrays;
 /**
  * The N Queen is the problem of placing N chess queens on an N×N chessboard so that no two queens attack each other.
  * <p>
- * The worst case “brute force” solution for the N-queens puzzle has an O(n^n) time complexity.
+ * The worst case "brute force" solution for the N-queens puzzle has an O(n^n) time complexity.
  * This means it will look through every position on an NxN board, N times, for N queens.
  * It is by far the slowest and most impractical method.
  * <p>

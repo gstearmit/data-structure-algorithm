@@ -151,7 +151,7 @@ public class DoubleHashingDictionary<K, V> implements Dictionary<K, V> {
 
     /**
      * Delete operation is interesting. If we simply delete a key, then search may fail.
-     * So slots of deleted keys are marked specially as “deleted”
+     * So slots of deleted keys are marked specially as "deleted"
      *
      * @param key
      * @return
